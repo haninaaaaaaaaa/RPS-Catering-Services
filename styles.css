@@ -184,8 +184,8 @@ html {
 }
 
 .icon-bar a:hover {
-  background-color: white;
-  color: #212127;
+  background-color: #212127;
+  color: white;
 }
 
 .facebook {
@@ -543,4 +543,11 @@ body {
 
 a {
   color: white;
+}
+
+.staff-image {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
 }
