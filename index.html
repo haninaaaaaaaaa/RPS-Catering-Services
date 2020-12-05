@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css"/> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+
+<body>
+  <!--------- SCROLL UP BUTTON ---------->
+<button onclick="topFunction()" id="myBtn" title="Go to top"><IMG SRC="images-folder/scrollupWHITE.png" style="width: 60px;"></button>
+   
+  
+      <!------ ICON BAR ------>
+      <div class="icon-bar">
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+        <a href="#" class="google"><i class="fa fa-google"></i></a> 
+        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+        </div>
+
+
+
+  <!---------- VIDEO HEADER ------------->
+ 
+  <video width="100%" height="auto" autoplay="autoplay" loop="true" muted>
+    <source src="RPS CATERING SERVICES.mp4" type="video/mp4">
+  </video>
+
+  <!-------------- TABS ------------>
+<button class="tablink" onclick="openPage('Home', this, 'white')" id="defaultOpen" >Home</button>
+<button class="tablink" onclick="openPage('About', this, 'white')" >About</button>
+<button class="tablink" onclick="openPage('Services', this, 'white')" >Services</button>
+<button class="tablink" onclick="openPage('Gallery', this, 'white')" >Gallery</button>
+<button class="tablink" onclick="openPage('Contact', this, 'white')" >Contact</button>
+
+
+
+<!-------------- HOME TAB ------------->
+<div id="Home" class="tabcontent">
+    <img src="images-folder/RPS-LOGO-PNG-BLACK.png" class="home-logo">
+    <p class="p">Explore the great and amazing taste with RPS CATERING SERVICES!<br>We are commited to service and food excellence! Your every demand and every need is catered.
+    </p> 
+          <button class="blink_me" onclick="openPage('Services')" >BOOK NOW!</button>
+        <img src="images-folder/celebration-home.jpg" class="home-image">
+      
+        
+        <a class="p1" onclick="openPage('About')">Explore taste? Explore us! CLICK HERE</a> 
+       
+  
+        
+
+        <DIV>
+          <P CLASS="footer">Copyright 2020. © RPS Catering Services. <a href="#">Terms</a> • <a href="#">Privacy</a> • <a href="#">Policies</a></P>
+        </DIV>
+</div>
+
+<!-------------- ABOUT TAB ------------->
+<div id="About" class="tabcontent">
+
+  sadfdfdsfdsdfg
+
+</div> 
+
+
+
+<!-------------- WORKS TAB ------------->
+<div id="Services" class="tabcontent">
+
+
+  <!---- HEADER gagawing slideshow -->
+
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <img src="images-folder/jjgraphicsheader.jpg" style="width:100%">
+    <div class="text">JJ Graphics Website Header</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <img src="images-folder/jjgraphicsslogan.jpg" style="width:100%">
+    <div class="text">JJ Graphics Slogan</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <img src="images-folder/jjgraphicscard.jpg" style="width:100%">
+    <div class="text">JJ Graphics Business Card</div>
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images-folder/jjgraphicsmockup7.png" style="width:100%">
+    <div class="text">JJ Graphics 3d Mock Up Sample</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <img src="images-folder/jjgraphicworks.jpg" style="width:100%">
+    <div class="text">JJ Graphics Logo Works</div>
+  </div>
+
+</div>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span> 
+    <span class="dot" onclick="currentSlide(5)"></span>
+  </div>
+
+
+
+<!--------- FILTER BUTTON -------->
+<div class="center1">
+<div id="myBtnContainer" class="categorybtn">
+  <button class="btn2" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn2" onclick="filterSelection('brand')"> Brand</button>
+  <button class="btn2" onclick="filterSelection('website')"> Website Assets</button>
+  <button class="btn2" onclick="filterSelection('stationery')"> Stationery</button>
+  <button class="btn2" onclick="filterSelection('socialmedia')"> Social Media Imagery</button>
+  <button class="btn2" onclick="filterSelection('clothing')"> Clothing</button>
+  <button class="btn2" onclick="filterSelection('packaging')"> Packaging</button>
+  <button class="btn2" onclick="filterSelection('others')"> Others</button>
+</div>
+</div>
+
+
+  <div class="header" id="myHeader">
+    <p>Change grid view</p>
+    <button class="btn" onclick="one()">1</button>
+    <button class="btn" onclick="two()">2</button>
+    <button class="btn" onclick="four()">4</button>
+  </div>
+
+
+<!----- SHOW PORTFOLIO ------->
+<div class="column">
+
+  <!-- 1ST ROW -->
+  <div class="row website, socialmedia">
+    <div class="container">
+      <img  src="images-folder/cosmeticssale.jpg" alt="Sample Banner About Cosmetics" style="width:100%">
+      <div class="overlay">
+        <div class="text">Hello</div>
+    </div>
+  </div>
+</div>
+    
+
+  <div class="row website, socialmedia">
+    <div class="container">
+      <img  src="images-folder/greenperksheader.jpg" alt="Green Perks Sample Header" style="width:100%">
+      <div class="overlay">
+        <div class="text">Hello</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row stationery">
+    <div class="container">
+      <img  src="/images-folder/pixionbrochure.jpg" alt="Pixions Sample Pamphlet" style="width:100%">
+      <div class="overlay">
+        <div class="text">Hello</div>
+    </div>
+  </div>
+</div>
+
+  <div class="row brand">
+    <div class="container">
+      <img  src="/images-folder/alingethelmockup.jpg" alt="Aling Ethel's Mock Up Logo" style="width:100%">
+      <div class="overlay">
+        <div class="text">Hello</div>
+    </div>
+  </div>
+</div>
+
+  <!-- 2ND ROW -->
+  
+  <div class="column">
+    
+  <div class="row socialmedia, website">
+    <div class="container">
+      <img   src="images-folder/expressbanner.jpg" alt="Express Packs Sample Ad Banner" style="width:100%">
+      <div class="overlay">
+        <div class="text">Hello</div>
+         </div>
+    </div>
+    </div>
+
+  <div class="row stationery">
+    <div class="container">
+      <img src="images-folder/pixionscard.jpg" alt="Pixions' Business Card 3D Sample" style="width:100%">
+      <div class="overlay">
+        <div class="text">Hello</div>
+         </div>
+    </div>
+    </div>
+
+  <div class="row clothing">
+    <div class="container">
+      <img  src="images-folder/expresshoody.jpg" alt="Express Packs Sample Hoody Design" style="width:100%">
+      <div class="overlay">
+        <div class="text">Hello</div>
+         </div>
+    </div>
+    </div>
+
+  <div class="row website, socialmedia">
+    <div class="container">
+      <img  src="images-folder/cosmetic3layaer.jpg" alt="Sample Banners About Cosmetics" style="width:100%">
+      <div class="overlay">
+        <div class="text">Hello</div>
+         </div>
+    </div>
+    </div>
+
+
+ <!-- 3RD ROW -->
+ <div class="column">
+  <div class="row stationery">
+      <img src="images-folder/greenperksbrochure.jpg" alt="Green Perks Pamphlet Sample" style="width:100%">
+  </div>
+
+  <div class="row brand">
+      <i
+      mg  src="images-folder/expressmockup.jpg" alt="Express Packs Mock Up Logo" style="width:100%">
+  </div>
+  
+  <div class="row stationery">
+      <img src="images-folder/greenperkscard.jpg" alt="Green Perks Business Card Mock up" style="width:100%">
+  </div>
+  
+  <div class="row website, socialmedia">
+      <img src="images-folder/expresspackaging.jpg" alt="Sample Banners About Cosmetics" style="width:100%">
+  </div>
+</div>
+
+<!-- 4TH ROW -->
+<div class="column">
+<div class="row stationery">
+    <img src="images-folder/digipenmockup.jpg" alt="3D Mockup - DIGIPEN LOGO" style="width:100%">
+</div>
+
+<div class="row brand">
+    <img  src="images-folder/cosmeticsbannerwhite.jpg" alt="Express Packs Mock Up Logo" style="width:100%">
+</div>
+
+<div class="row website, socialmedia">
+    <img src="images-folder/pixionsheader.jpg" alt="Pixions Sample Header" style="width:100%">
+</div>
+
+<div class="row website, socialmedia">
+    <img  src="images-folder/greenperkspamphlet3d.jpg" alt="Sample Banner About Cosmetics" style="width:100%">
+</div>
+</div>
+
+<!-- 5TH ROW -->
+<div class="column">
+<div class="row website">
+    <img  src="images-folder/cosmeticseye.jpg" alt="Sample Banner About Cosmetics" style="width:100%">
+</div>
+
+<div class="row socialmedia">
+    <img  src="images-folder/covidawareness.jpg" alt="Sample Infograph" style="width:100%">
+</div>
+
+<div class="row stationery">
+    <img  src="images-folder/digipenbanner.jpg" alt="Green Perks Business Card Mock up" style="width:100%">
+</div>
+
+<div class="row branding">
+    <img  src="images-folder/r&aphotosmockup.jpg" alt="Sample R&A Photos 3D Mockup" style="width:100%">
+</div>
+</div><!-- END ROW --->
+
+
+
+
+
+</div> <!---- END WORKS-->
+
+<!---------- CONTACT TAB --------->
+<div id="Gallery" class="tabcontent">
+</div>
+
+  <!------ ICON BAR ------>
+  <div class="icon-bar">
+    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+    <a href="#" class="google"><i class="fa fa-google"></i></a> 
+    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+      </div>
+
+    <!-------------- CONTACT TAB ----->
+    <div id="Contact" class="tabcontent">
+    </div>
+    
+    
+</body>
+<footer><script src="script.js"></script></footer>
+</html>
