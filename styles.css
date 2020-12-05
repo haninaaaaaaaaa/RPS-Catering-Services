@@ -189,28 +189,28 @@ html {
 }
 
 .facebook {
-  background: #3b5998;
-  color: white;
+  background: transparent;
+  color: #3b5998;
 }
 
 .twitter {
-  background: #55acee;
-  color: white;
+  background: transparent;
+  color: #55acee;
 }
 
 .google {
-  background: #dd4b39;
-  color: white;
+  background: white;
+  color: #dd4b39;
 }
 
 .linkedin {
-  background: #007bb5;
-  color: white;
+  background: white;
+  color: #007bb5;
 }
 
 .youtube {
-  background: #bb0000;
-  color: white;
+  background: white;
+  color: #bb0000;
 }
 /*************** END ICON BAR ************/
 
