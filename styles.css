@@ -34,6 +34,12 @@ body {
   width: 100%;
 }
 
+.staff-image {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
 .home-logo {
   display: block;
   margin-left: auto;
@@ -86,6 +92,18 @@ body {
   color: #212127;
 }
 
+.p2 {
+  display: block;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  padding-bottom: 50px;
+  font-weight: bold;
+  color: #212127;
+}
 /* DIVIDER */
 hr.solid {
   border-top: 1px solid white;
@@ -127,14 +145,13 @@ html {
 
 #Home {
   background-color: white;
-
-  /**background-image: url("images-folder/home-bg.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;**/
 }
 #About {
-  background-color: white;
+  background-image: url("images-folder/about-image.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family: "Montserrat", sans-serif;
 }
 #Works {
   background-color: white;
@@ -543,11 +560,4 @@ body {
 
 a {
   color: white;
-}
-
-.staff-image {
-  display: inline;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
 }
