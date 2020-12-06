@@ -97,7 +97,7 @@ body {
   padding-top: 50px;
   padding-left: 30px;
   padding-right: 30px;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   font-family: "Amatic SC", cursive;
   padding-bottom: 50px;
@@ -555,7 +555,8 @@ body {
   background-color: #212127;
   color: white;
   text-align: center;
-  padding: 30px;
+  vertical-align: center;
+  padding: 10px;
 }
 
 a {
