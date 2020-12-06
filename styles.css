@@ -144,7 +144,7 @@ html {
 #Home {
   padding-top: 30px;
   background-image: url("images-folder/home-bg1s.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
 }
