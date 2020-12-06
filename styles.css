@@ -109,9 +109,10 @@ body {
   color: #212127;
 }
 /* DIVIDER */
-hr.solid {
+  hr.solid {
   border-top: 1px solid white;
   opacity: 2%;
+  margin-top: 50px;
 }
 
 /******* TABS **********/
@@ -247,7 +248,7 @@ html {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0px;
+  margin-top: 10px;
   width: 50%;
   background-color: white; /* Green */
   border: none;
@@ -260,13 +261,14 @@ html {
   border-radius: 50px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
+  margin-bottom: 20px;"
 }
 
-.button11 {
+.button1 {
   transition-duration: 0.4s;
 }
 
-.button11:hover {
+.button1:hover {
   background-color: #212127; /* Green */
   color: white;
 }
