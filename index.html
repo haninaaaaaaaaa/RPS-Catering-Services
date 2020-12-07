@@ -218,7 +218,7 @@ If you want your wedding to have a more natural and simple feel,
   <div id="Gallery" class="tabcontent">
 
 
-  <div class="slideshow-container">
+  <div class="slideshow-container" >
 
     <div class="mySlides fade">
       <img src="images-folder/rustic1.png" style="width:100%">
@@ -454,11 +454,11 @@ If you want your wedding to have a more natural and simple feel,
 
 
 <!-------------- RESERVATION TAB ----->
-<div id="Reservation" class="tabcontent">
+<div id="Reservation" class="tabcontent" class="div1">
 
   <P CLASS="p" style="margin-top: 50px">PLEASE  PROVIDE YOUR COMPLETE DETAILS BELOW</P>
 
-  <div1>
+  <div>
     <form action="/action_page.php">
       <label for="fname">Full Name</label>
       <input type="text" id="name" name="name" placeholder="First and Last Name..">
@@ -490,10 +490,10 @@ If you want your wedding to have a more natural and simple feel,
     </form> 
 
       <!------- RUSTIC WEDDING MENU----->
-    <button class="button1" onclick="myFunction()">CHOOSE MENU</button>
+    <button class="button2" onclick="myFunction()">CHOOSE MENU</button>
     
     <p id="option1" style="display: none">
-        PHP 550/PAX<br><BR>
+        PHP 550/PAX<br><BR><BR>
           APPETIZER:<BR>
         <input type="radio" id="tuna" name="appetizer" value="tuna">
         <label for="tuna">Tuna Tartare Cones</label><br>
@@ -502,12 +502,116 @@ If you want your wedding to have a more natural and simple feel,
         <label for="radio">Fresh Oyster raw bar</label><br>
 
         <input type="radio" id="meat" name="appetizer" value="meat">
-        <label for="meat">Meat Swekers</label><br>
+        <label for="meat">Meat Swekers</label><br><BR>
       
+        SOUP:<BR>
+          <input type="radio" id="Crab" name="soup" value="Crab">
+          <label for="Crab">Crab and meatball soups</label><br>
+  
+          <input type="radio" id="cream" name="soup" value="cream">
+          <label for="radio">Cream of Asparagus</label><br>
+  
+          <input type="radio" id="hayotay" name="soup" value="hayotay">
+          <label for="hayotay">Hayotay Soup</label><br><BR>
+  
+  PASTA:<BR>
+          <input type="radio" id="Pasta" name="pasta" value="pasta">
+          <label for="pasta">Pasta Carbonara</label><br>
+  
+          <input type="radio" id="special" name="pasta" value="special">
+          <label for="radio">Special Pancit Palabok</label><br>
+  
+          <input type="radio" id="Creamy" name="pasta" value="creamy">
+          <label for="creamy">Creamy Tuna Pesto</label><br><BR>
+  
+  SALAD:<BR>
+          <input type="radio" id="potato" name="pasta" value="potato">
+          <label for="potato">Potato Salad</label><br>
+  
+          <input type="radio" id="Garden" name="salad" value="Garden">
+          <label for="radio">Garden Fresh Salad with Dressing</label><br>
+  
+          <input type="radio" id="macaroni" name="salad" value="macaroni">
+          <label for="macaroni">Macaroni Salad</label><br><BR>
+
+  DESSERT:<BR>
+          <input type="radio" id="Buko" name="Dessert" value="Buko">
+          <label for="Buko">Buko Panda, Assorted Pastries</label><br>
+  
+          <input type="radio" id="Fresh" name="Dessert" value="Fresh">
+          <label for="radio">Fresh Fruit Cocktail, Macapuno Strings</label><br>
+  
+  <input type="radio" id="Leche" name="Dessert" value="Leche">
+          <label for="radio">Leche Plan, Buko Salad</label><br><BR>
+
+  DRINKS:<BR>
+          <input type="radio" id="Cucumber" name="drinks" value="Cucumber">
+          <label for="Cucumber">Cucumber Lemonade, Fresh Pineapple Juice</label><br>
+  
+          <input type="radio" id="lemon" name="Drinks" value="lemon">
+          <label for="radio">Lemon Iced Tea, Fruit Punch</label><br><BR>
+  
+  
+  <input type="radio" id="Fresh" name="Drinks" value="Fresh">
+          <label for="radio">Fresh Buko Juice, Black Gulaman</label><br>
+  
+  MAIN COURSE:<BR>
+                <input type="radio" id="rice" name="main" value="rice">
+                <label for="rice">Steamed Rice</label><br><br>
+  
+  VEGETABLE:<BR>
+  <input type="radio" id="Buttered" name="Vegetable" value="buttered">
+          <label for="buttered">Buttered Vegetable with quail eggs</label><br>
+  
+          <input type="radio" id="mixed" name="vegetables" value="mixed">
+          <label for="radio">Mixed Vegetable Tempura</label><br><BR>
+  
+  <input type="radio" id="Fresh" name="Vegetable" value="Fresh">
+          <label for="radio">Fresh Lumpia</label><br><BR>
+
+  FISH:<BR>
+  <input type="radio" id="Seafood" name="fish" value="Seafood">
+          <label for="Seafood">Seafood Supreme</label><br>
+  
+  <input type="radio" id="Fish" name="Fish" value="Fish">
+          <label for="radio">Fish Fillet Homemade</label><br>
+          
+  <input type="radio" id="Tuna" name="Fish" value="Tuna">
+          <label for="radio">Tuna with spinach Sauce</label><br><BR>
+  
+  CHICKEN:<BR>
+  <input type="radio" id="Roast" name="Chicken" value="Roast">
+          <label for="buttered">Roast Chicken</label><br>
+  
+          <input type="radio" id="chicken" name="chicken" value="chicken">
+          <label for="radio">Chicken Mandarin</label><br>
+  
+        <input type="radio" id="chicken" name="chicken" value="chicken">
+          <label for="radio">Chicken Cinnamon</label><br><BR>
+  
+  PORK:<BR>
+  <input type="radio" id="pork" name="pork" value="pork">
+          <label for="Pork">Pork Salpicao</label><br>
+  
+          <input type="radio" id="pork" name="pork" value="pork">
+          <label for="Pork">Pork in Black Bean Sauce</label><br>
+  
+        <input type="radio" id="Grilled" name="Pork" value="Grilled">
+          <label for="radio">Grilled Pork Tinderloin with Satay Sauce</label><br><BR>
+  
+  BEEF:<BR>
+  <input type="radio" id="Beed" name="Beed" value="Beed">
+          <label for="Beef">Beef Cooked in Oyster Sauce with young corn and mushroom</label><br>
+  
+          <input type="radio" id="sliced" name="beef" value="sliced">
+          <label for="sliced">Sliced Beef with Apple Sauce</label><br>
+  
+        <input type="radio" id="Calderetang" name="Beef" value="Cakderetang">
+          <label for="radio">Calderetang Batangas</label><br><BR>
 
 
 
-        <button class="button1" onclick="myFunction()">SUBMIT</button>
+        <button class="button2" onclick="myFunction()">SUBMIT</button>
     </p> 
 
 
@@ -525,14 +629,229 @@ If you want your wedding to have a more natural and simple feel,
       <input type="radio" id="meat" name="appetizer" value="meat">
       <label for="meat">Meat Swekers</label><br>
     
+      SOUP:<BR>
+        <input type="radio" id="Crab" name="soup" value="Crab">
+        <label for="Crab">Crab and meatball soups</label><br>
+
+        <input type="radio" id="cream" name="soup" value="cream">
+        <label for="radio">Cream of Asparagus</label><br>
+
+        <input type="radio" id="hayotay" name="soup" value="hayotay">
+        <label for="hayotay">Hayotay Soup</label><br><BR>
+
+PASTA:<BR>
+        <input type="radio" id="Pasta" name="pasta" value="pasta">
+        <label for="pasta">Pasta Carbonara</label><br>
+
+        <input type="radio" id="special" name="pasta" value="special">
+        <label for="radio">Special Pancit Palabok</label><br>
+
+        <input type="radio" id="Creamy" name="pasta" value="creamy">
+        <label for="creamy">Creamy Tuna Pesto</label><br><BR>
+
+SALAD:<BR>
+        <input type="radio" id="potato" name="pasta" value="potato">
+        <label for="potato">Potato Salad</label><br>
+
+        <input type="radio" id="Garden" name="salad" value="Garden">
+        <label for="radio">Garden Fresh Salad with Dressing</label><br>
+
+        <input type="radio" id="macaroni" name="salad" value="macaroni">
+        <label for="macaroni">Macaroni Salad</label><br><BR>
+
+DESSERT:<BR>
+        <input type="radio" id="Buko" name="Dessert" value="Buko">
+        <label for="Buko">Buko Panda, Assorted Pastries</label><br>
+
+        <input type="radio" id="Fresh" name="Dessert" value="Fresh">
+        <label for="radio">Fresh Fruit Cocktail, Macapuno Strings</label><br>
+
+<input type="radio" id="Leche" name="Dessert" value="Leche">
+        <label for="radio">Leche Plan, Buko Salad</label><br><BR>
+
+DRINKS:<BR>
+        <input type="radio" id="Cucumber" name="drinks" value="Cucumber">
+        <label for="Cucumber">Cucumber Lemonade, Fresh Pineapple Juice</label><br>
+
+        <input type="radio" id="lemon" name="Drinks" value="lemon">
+        <label for="radio">Lemon Iced Tea, Fruit Punch</label><br><BR>
 
 
+<input type="radio" id="Fresh" name="Drinks" value="Fresh">
+        <label for="radio">Fresh Buko Juice, Black Gulaman</label><br>
 
-      <button class="button1" onclick="myFunction()">SUBMIT</button>
+MAIN COURSE:<BR>
+              <input type="radio" id="rice" name="main" value="rice">
+              <label for="rice">Steamed Rice</label><br><br>
+
+VEGETABLE:<BR>
+<input type="radio" id="Buttered" name="Vegetable" value="buttered">
+        <label for="buttered">Buttered Vegetable with quail eggs</label><br>
+
+        <input type="radio" id="mixed" name="vegetables" value="mixed">
+        <label for="radio">Mixed Vegetable Tempura</label><br><BR>
+
+<input type="radio" id="Fresh" name="Vegetable" value="Fresh">
+        <label for="radio">Fresh Lumpia</label><br><BR>
+
+FISH:<BR>
+<input type="radio" id="Seafood" name="fish" value="Seafood">
+        <label for="Seafood">Seafood Supreme</label><br>
+
+<input type="radio" id="Fish" name="Fish" value="Fish">
+        <label for="radio">Fish Fillet Homemade</label><br>
+        
+<input type="radio" id="Tuna" name="Fish" value="Tuna">
+        <label for="radio">Tuna with spinach Sauce</label><br><BR>
+
+CHICKEN:<BR>
+<input type="radio" id="Roast" name="Chicken" value="Roast">
+        <label for="buttered">Roast Chicken</label><br>
+
+        <input type="radio" id="chicken" name="chicken" value="chicken">
+        <label for="radio">Chicken Mandarin</label><br>
+
+      <input type="radio" id="chicken" name="chicken" value="chicken">
+        <label for="radio">Chicken Cinnamon</label><br><BR>
+
+PORK:<BR>
+<input type="radio" id="pork" name="pork" value="pork">
+        <label for="Pork">Pork Salpicao</label><br>
+
+        <input type="radio" id="pork" name="pork" value="pork">
+        <label for="Pork">Pork in Black Bean Sauce</label><br>
+
+      <input type="radio" id="Grilled" name="Pork" value="Grilled">
+        <label for="radio">Grilled Pork Tinderloin with Satay Sauce</label><br><BR>
+
+BEEF:<BR>
+<input type="radio" id="Beed" name="Beed" value="Beed">
+        <label for="Beef">Beef Cooked in Oyster Sauce with young corn and mushroom</label><br>
+
+        <input type="radio" id="sliced" name="beef" value="sliced">
+        <label for="sliced">Sliced Beef with Apple Sauce</label><br>
+
+      <input type="radio" id="Calderetang" name="Beef" value="Cakderetang">
+        <label for="radio">Calderetang Batangas</label><br><BR>
+
+
+      <button class="button2" onclick="myFunction()">SUBMIT</button>
     </p>  
 
      <!------- WINTER WONDERLAND DEBUT ------>
     <p id="option3" style="display: none">
+    
+      
+      PHP 550/PAX<br><BR>
+      APPETIZER:<BR>
+    <input type="radio" id="pork" name="appetizer" value="pork">
+    <label for="pork">Pork belly with chili caramel sauce </label><br>
+
+    <input type="radio" id="Prosciutto" name="appetizer" value="Prosciutto">
+    <label for="Prosciutto">Prosciutto-Wrapped Persimmons With Goat Cheese</label><br>
+
+    <input type="radio"id="Biscuits" name="appetizer" value="Biscuits">
+    <label for="Biscuits">Biscuits Topped With Chipotle Sauce</label><br><br>
+
+    SOUP:<BR>
+      <input type="radio" id="Pumpkin" name="soup" value="Pumpkin">
+      <label for="Pumpkin">Pumpkin Soup </label><br>
+  
+      <input type="radio" id="Crab" name="soup"  value="Crab">
+      <label for="Crab">Crab and meatball soup </label><br>
+  
+      <input type="radio" id="Cream" name="soup" value="Cream">
+      <label for="Cream">Cream of asparagus soup </label><br><br>
+
+      SALAD:<BR>
+      <input type="radio" id="Garden" name="salad" value="Garden">
+      <label for="Garden">Garden Fresh Salad with Dressing </label><br>
+  
+      <input type="radio" id="Macaroni" name="salad"  value="Macaroni">
+      <label for="Macaroni">Macaroni Salad </label><br>
+  
+      <input type="radio" id="Chef" name="salad" value="Chef">
+      <label for="Chef">Chef Salad</label><br> <br>
+
+        DESSERT:<BR>
+          <input type="radio" id="Buko" name="dessert" value="Buko">
+          <label for="Buko">Buko Salad</label><br>
+      
+          <input type="radio" id="Fruit" name="dessert"  value="Fruit">
+          <label for="Fruit">Fruit Salad</label><br>
+      
+          <input type="radio" id="season" name="dessert" value="season">
+          <label for="season">Fruits in season </label><br> <br>
+
+
+          DRINKS:<BR>
+            <input type="radio" id="Punch" name="drinks" value="Punch">
+            <label for="Punch">Fruit Punch</label><br>
+        
+            <input type="radio" id="Lemon" name="drinks"  value="Lemon">
+            <label for="Lemon">Lemon ice tea </label><br>
+        
+            <input type="radio" id="Soft" name="drinks" value="Soft">
+            <label for="Soft">Soft drinks </label><br> <br>
+
+            MAIN COURSE:<BR>
+              <input type="radio" id="rice" name="main" value="rice">
+              <label for="rice">Steamed Rice</label><br><br>
+
+              VEGETABLE:<BR>
+                <input type="radio" id="Buttered" name="vegetable" value="Buttered">
+                <label for="Buttered">Buttered vegetable with kernel corn and seafood</label><br>
+            
+                <input type="radio" id="Green" name="vegetable"  value="Green">
+                <label for="Green">Green beans with shrimp and quail eggs </label><br>
+            
+                <input type="radio" id="Seafood" name="vegetable" value="Seafood">
+                <label for="Seafood">Seafood vegetables  </label><br> <br>
+
+                FISH DISH:<BR>
+                  <input type="radio" id="Fillet" name="fishdish" value="Fillet">
+                  <label for="Fillet">Fish Fillet in Homemade tartar sauce </label><br>
+              
+                  <input type="radio" id="fillet1" name="fishdish"  value="fillet1">
+                  <label for="fillet1">Fish fillet with fruit cocktail dressing </label><br>
+              
+                  <input type="radio" id="medley" name="fishdish" value="medley">
+                  <label for="medley">Seafood medley </label><br> <br>
+
+                  CHICKEN DISH:<BR>
+                    <input type="radio" id="Inasal" name="chicken" value="Inasal">
+                    <label for="Inasal">Chicken Inasal with Atchara cooked on the spot</label><br>
+                
+                    <input type="radio" id="potato" name="chicken"  value="potato">
+                    <label for="potato">Chicken potato casserole</label><br>
+                
+                    <input type="radio" id="flamble" name="chicken" value="flamble">
+                    <label for="flamble">Chicken flamble</label><br> <br>
+                
+                    PORK DISH:<BR>
+                      <input type="radio" id="Hawaiian" name="pork" value="Hawaiian">
+                      <label for="Inasal">Hawaiian Pork slices </label><br>
+                  
+                      <input type="radio" id="Milanese" name="pork"  value="Milanese">
+                      <label for="Milanese">Pork Milanese with creamy caper </label><br>
+                  
+                      <input type="radio" id="spareribs" name="pork" value="spareribs">
+                      <label for="spareribs">Pork spareribs in barbeque sauce </label><br> <br>
+
+                        BEEF DISH:<BR>
+                          <input type="radio" id="Broccoli" name="beef" value="Broccoliv">
+                          <label for="Broccoli">Beef with Broccoli</label><br>
+                      
+                          <input type="radio" id="Milanese" name="beef"  value="Milanese">
+                          <label for="Milanese">Korean beef stew </label><br>
+                      
+                          <input type="radio" id="Italian" name="beef" value="Italian">
+                          <label for="Italian">Italian beef rolls </label><br> <br>
+
+      <button class="button2" onclick="myFunction()">SUBMIT</button>
+    </p>   
+
+    <p id="option4" style="display: none">
     PHP 550/PAX<br><BR>
       APPETIZER:<BR>
     <input type="radio" id="pork" name="appetizer" value="pork">
@@ -593,21 +912,277 @@ If you want your wedding to have a more natural and simple feel,
                 <input type="radio" id="Buttered" name="vegetable" value="Buttered">
                 <label for="Buttered">Buttered vegetable with kernel corn and seafood</label><br>
             
-                <input type="radio" id="Lemon" name="vegetable"  value="Lemon">
-                <label for="Lemon">Lemon ice tea </label><br>
+                <input type="radio" id="Green" name="vegetable"  value="Green">
+                <label for="Green">Green beans with shrimp and quail eggs </label><br>
             
-                <input type="radio" id="Soft" name="vegetable" value="Soft">
-                <label for="Soft">Soft drinks </label><br> <br>
+                <input type="radio" id="Seafood" name="vegetable" value="Seafood">
+                <label for="Seafood">Seafood vegetables  </label><br> <br>
 
-      <button class="button1" onclick="myFunction()">SUBMIT</button>
+                FISH DISH:<BR>
+                  <input type="radio" id="Fillet" name="fishdish" value="Fillet">
+                  <label for="Fillet">Fish Fillet in Homemade tartar sauce </label><br>
+              
+                  <input type="radio" id="fillet1" name="fishdish"  value="fillet1">
+                  <label for="fillet1">Fish fillet with fruit cocktail dressing </label><br>
+              
+                  <input type="radio" id="medley" name="fishdish" value="medley">
+                  <label for="medley">Seafood medley </label><br> <br>
+
+                  CHICKEN DISH:<BR>
+                    <input type="radio" id="Inasal" name="chicken" value="Inasal">
+                    <label for="Inasal">Chicken Inasal with Atchara cooked on the spot</label><br>
+                
+                    <input type="radio" id="potato" name="chicken"  value="potato">
+                    <label for="potato">Chicken potato casserole</label><br>
+                
+                    <input type="radio" id="flamble" name="chicken" value="flamble">
+                    <label for="flamble">Chicken flamble</label><br> <br>
+                
+                    PORK DISH:<BR>
+                      <input type="radio" id="Hawaiian" name="pork" value="Hawaiian">
+                      <label for="Inasal">Hawaiian Pork slices </label><br>
+                  
+                      <input type="radio" id="Milanese" name="pork"  value="Milanese">
+                      <label for="Milanese">Pork Milanese with creamy caper </label><br>
+                  
+                      <input type="radio" id="spareribs" name="pork" value="spareribs">
+                      <label for="spareribs">Pork spareribs in barbeque sauce </label><br> <br>
+
+                      BEEF DISH:<BR>
+                        <input type="radio" id="Broccoli" name="beef" value="Broccoliv">
+                        <label for="Broccoli">Beef with Broccoli</label><br>
+                    
+                        <input type="radio" id="Milanese" name="beef"  value="Milanese">
+                        <label for="Milanese">Korean beef stew </label><br>
+                    
+                        <input type="radio" id="Italian" name="beef" value="Italian">
+                        <label for="Italian">Italian beef rolls </label><br> <br>
+
+      <button class="button2" onclick="myFunction()">SUBMIT</button>
     </p>   
 
-    <p id="option4" style="display: none">option4</p>
-    <p id="option5" style="display: none">option5</p>
-    <p id="option6" style="display: none">option5</p>
+    <p id="option5" style="display: none">
+      PHP 430/PAX<br><BR>
+    FOR CHILDREN:<BR>
+    <input type="radio" id="Hotdog" name="children" value="Hotdog">
+    <label for="Hotdog">Hotdog on sticks </label><br>
 
+    <input type="radio" id="Spaghetti" name="children" value="Spaghetti">
+    <label for="Spaghetti">Spaghetti</label><br>
 
+    <input type="radio"id="lollipop" name="children" value="lollipop">
+    <label for="lollipop">Chicken lollipop</label><br><br>
+
+    SOUP:<BR>
+      <input type="radio" id="Molo" name="soup" value="Molo">
+      <label for="Molo">Molo Soup</label><br>
+  
+      <input type="radio" id="Shrimp" name="soup" value="Shrimp">
+      <label for="Shrimp">Shrimp and fresh corn soup </label><br>
+  
+      <input type="radio"id="Hayotay" name=soup" value="Hayotay">
+      <label for="Hayotay">Hayotay soup </label><br><br>
+
+      PASTA:<BR>
+        <input type="radio" id="pesto" name="pasta" value="pesto">
+        <label for="pesto">Creamy tuna pesto</label><br>
     
+        <input type="radio" id="meatballs" name="pasta" value="meatballs">
+        <label for="meatballs">Spaghetti with meatballs </label><br>
+    
+        <input type="radio"id="carbonara" name="pasta" value="carbonara">
+        <label for="carbonara">Pasta carbonara  </label><br><br>
+
+        DESSERT:<BR>
+          <input type="radio" id="Cocktail" name="dessert" value="Cocktail">
+          <label for="Cocktail">Fresh fruit Cocktail</label><br>
+      
+          <input type="radio" id="bukos" name="dessert" value="bukos">
+          <label for="bukos">Buko salad </label><br>
+      
+          <input type="radio"id="Leche" name="dessert" value="Leche">
+          <label for="Leche">Leche plan </label><br><br>
+
+          DRINKS:<BR>
+            <input type="radio" id="Black" name="drinks" value="Black">
+            <label for="Black">Black Gulaman </label><br>
+        
+            <input type="radio" id="buko" name="drinks" value="buko">
+            <label for="buko">Fresh buko juice </label><br>
+        
+            <input type="radio"id="Soft" name="drinks" value="Soft">
+            <label for="Soft">Soft drinks</label><br><br>
+
+          MAIN COURSE:<BR>
+              <input type="radio" id="rice" name="main" value="rice">
+              <label for="rice">Steamed Rice</label><br><br>
+
+              VEGETABLE<BR>
+                <input type="radio" id="fried" name="vege" value="fried">
+                <label for="fried">Stir fried vegetables in cream of Corn</label><br><br> 
+                
+                <input type="radio" id="kernel" name="vege" value="kernel">
+                <label for="kernel">Buttered vegetable with kernel corn</label><br><br> 
+
+                <input type="radio" id="quail" name="vege" value="quail">
+                <label for="quail">Buttered vegetables with quail eggs</label><br><br> 
+
+                FISH DISH:<BR>
+                  <input type="radio" id="spinach" name="fishy" value="spinach">
+                  <label for="spinach">Tuna with spinach sauce</label><br><br> 
+                  
+                  <input type="radio" id="onion" name="fishy" value="onion">
+                  <label for="onion">Grilled squid with onion stuffing </label><br><br> 
+  
+                  <input type="radio" id="supreme" name="fishy" value="supreme">
+                  <label for="supreme">Seafood supreme </label><br><br> 
+
+                  CHICKEN DISH:<BR>
+                    <input type="radio" id="Pastel" name="chick" value="Pastel">
+                    <label for="Pastel">Chicken Pastel</label><br><br> 
+                    
+                    <input type="radio" id="breast" name="chick" value="breast">
+                    <label for="breast">Chicken breast in hoisin sauce </label><br><br> 
+    
+                    <input type="radio" id="king" name="chick" value="king">
+                    <label for="king">Chicken ala king </label><br><br>   
+
+
+                    PORK DISH:<BR>
+                      <input type="radio" id="barbeque" name="pork" value="barbeque">
+                      <label for="barbeque">Pork spareribs in barbeque sauce</label><br><br> 
+                      
+                      <input type="radio" id="Spicy" name="pork" value="Spicy">
+                      <label for="Spicy">Spicy pork with vegetable toppings</label><br><br> 
+      
+                      <input type="radio" id="honey" name="pork" value="honey">
+                      <label for="honey">Tangy honey glazed hampork tenderloin allla Napoli</label><br><br> 
+      
+                      BEEF DISH:<BR>
+                        <input type="radio" id="Morcon" name="beef" value="Morcon">
+                        <label for="Morcon">Beef Morcon</label><br><br> 
+                        
+                        <input type="radio" id="apple" name="beef" value="apple">
+                        <label for="apple">Slice beef with apple sauce</label><br><br> 
+        
+                        <input type="radio" id="chorizo" name="chorizo" value="chorizo">
+                        <label for="chorizo">	Beef with Chinese chorizo </label><br><br> 
+        
+
+    <button class="button2" onclick="myFunction()">SUBMIT</button>
+    </p> 
+
+    <p id="option6" style="display: none">
+      PHP 430/PAX<br><BR>
+        FOR CHILDREN:<BR>
+        <input type="radio" id="Hotdog" name="children" value="Hotdog">
+        <label for="Hotdog">Hotdog on sticks </label><br>
+    
+        <input type="radio" id="Spaghetti" name="children" value="Spaghetti">
+        <label for="Spaghetti">Spaghetti</label><br>
+    
+        <input type="radio"id="lollipop" name="children" value="lollipop">
+        <label for="lollipop">Chicken lollipop</label><br><br>
+    
+        SOUP:<BR>
+          <input type="radio" id="Molo" name="soup" value="Molo">
+          <label for="Molo">Molo Soup</label><br>
+      
+          <input type="radio" id="Shrimp" name="soup" value="Shrimp">
+          <label for="Shrimp">Shrimp and fresh corn soup </label><br>
+      
+          <input type="radio"id="Hayotay" name=soup" value="Hayotay">
+          <label for="Hayotay">Hayotay soup </label><br><br>
+    
+          PASTA:<BR>
+            <input type="radio" id="pesto" name="pasta" value="pesto">
+            <label for="pesto">Creamy tuna pesto</label><br>
+        
+            <input type="radio" id="meatballs" name="pasta" value="meatballs">
+            <label for="meatballs">Spaghetti with meatballs </label><br>
+        
+            <input type="radio"id="carbonara" name="pasta" value="carbonara">
+            <label for="carbonara">Pasta carbonara  </label><br><br>
+    
+            DESSERT:<BR>
+              <input type="radio" id="Cocktail" name="dessert" value="Cocktail">
+              <label for="Cocktail">Fresh fruit Cocktail</label><br>
+          
+              <input type="radio" id="bukos" name="dessert" value="bukos">
+              <label for="bukos">Buko salad </label><br>
+          
+              <input type="radio"id="Leche" name="dessert" value="Leche">
+              <label for="Leche">Leche plan </label><br><br>
+    
+              DRINKS:<BR>
+                <input type="radio" id="Black" name="drinks" value="Black">
+                <label for="Black">Black Gulaman </label><br>
+            
+                <input type="radio" id="buko" name="drinks" value="buko">
+                <label for="buko">Fresh buko juice </label><br>
+            
+                <input type="radio"id="Soft" name="drinks" value="Soft">
+                <label for="Soft">Soft drinks</label><br><br>
+    
+              MAIN COURSE:<BR>
+                  <input type="radio" id="rice" name="main" value="rice">
+                  <label for="rice">Steamed Rice</label><br><br>
+    
+                  VEGETABLE<BR>
+                    <input type="radio" id="fried" name="vege" value="fried">
+                    <label for="fried">Stir fried vegetables in cream of Corn</label><br> 
+                    
+                    <input type="radio" id="kernel" name="vege" value="kernel">
+                    <label for="kernel">Buttered vegetable with kernel corn</label><br> 
+    
+                    <input type="radio" id="quail" name="vege" value="quail">
+                    <label for="quail">Buttered vegetables with quail eggs</label><br><br> 
+    
+                    FISH DISH:<BR>
+                      <input type="radio" id="spinach" name="fishy" value="spinach">
+                      <label for="spinach">Tuna with spinach sauce</label><br> 
+                      
+                      <input type="radio" id="onion" name="fishy" value="onion">
+                      <label for="onion">Grilled squid with onion stuffing </label><br> 
+      
+                      <input type="radio" id="supreme" name="fishy" value="supreme">
+                      <label for="supreme">Seafood supreme </label><br><br> 
+    
+                      CHICKEN DISH:<BR>
+                        <input type="radio" id="Pastel" name="chick" value="Pastel">
+                        <label for="Pastel">Chicken Pastel</label><br>
+                        
+                        <input type="radio" id="breast" name="chick" value="breast">
+                        <label for="breast">Chicken breast in hoisin sauce </label><br>
+        
+                        <input type="radio" id="king" name="chick" value="king">
+                        <label for="king">Chicken ala king </label><br><br>   
+    
+    
+                        PORK DISH:<BR>
+                          <input type="radio" id="barbeque" name="pork" value="barbeque">
+                          <label for="barbeque">Pork spareribs in barbeque sauce</label><br>
+                          
+                          <input type="radio" id="Spicy" name="pork" value="Spicy">
+                          <label for="Spicy">Spicy pork with vegetable toppings</label><br> 
+          
+                          <input type="radio" id="honey" name="pork" value="honey">
+                          <label for="honey">Tangy honey glazed hampork tenderloin allla Napoli</label><br><br> 
+          
+                          BEEF DISH:<BR>
+                            <input type="radio" id="Morcon" name="beef" value="Morcon">
+                            <label for="Morcon">Beef Morcon</label><br><br> 
+                            
+                            <input type="radio" id="apple" name="beef" value="apple">
+                            <label for="apple">Slice beef with apple sauce</label><br> 
+            
+                            <input type="radio" id="chorizo" name="chorizo" value="chorizo">
+                            <label for="chorizo">	Beef with Chinese chorizo </label><br><br> 
+            
+    
+        <button class="button2" onclick="myFunction1()" onlick="openPage('Reservation')">SUBMIT</button>
+        </p> 
+        <div id="snackbar">Success! Please wait our email. Thank you!</div>
   </div1>  
 
 

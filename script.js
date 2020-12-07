@@ -176,7 +176,7 @@ function myFunction() {
   var text3 = document.getElementById("option3");
   var text4 = document.getElementById("option4");
   var text5 = document.getElementById("option5");
-  var text6 = document.getElementById("option5");
+  var text6 = document.getElementById("option6");
 
     
     if (menu1.checked == true){
@@ -236,7 +236,7 @@ function myFunction() {
       text3.style.display = "none";
       text4.style.display = "none";
       text5.style.display = "none";
-      text6.style.display = "display";
+      text6.style.display = "block";
 
     } 
 
@@ -247,10 +247,24 @@ function myFunction() {
       text3.style.display = "none";
       text4.style.display = "none";
       text5.style.display = "none";
+      text6.style.display = "none";
     }
   
   
   }
 
+
+
+  function myFunction1() {
+// Get the snackbar DIV
+var x = document.getElementById("snackbar");
+
+// Add the "show" class to DIV
+x.className = "show";
+
+// After 3 seconds, remove the show class from DIV
+setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+
+  }
 
 
