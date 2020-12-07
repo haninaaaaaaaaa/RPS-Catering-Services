@@ -86,12 +86,23 @@ function w3RemoveClass(element, name) {
 // Add active class to the current button (highlight it)
 var btnContainer = document.getElementById("myBtnContainer");
 var btns = btnContainer.getElementsByClassName("btn2");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
+for (var q = 0; q < btns.length; q++) {
+  btns[q].addEventListener("click", function(){
     var current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
   });
+} 
+
+// Add active class to the current button (highlight it)
+var btnContainer1 = document.getElementById("myBtnContainer1");
+var btns1 = btnContainer1.getElementsByClassName("btn");
+for (var d = 0; d < btns1.length; d++) {
+  btns1[d].addEventListener("click", function(){
+    var current1 = document.getElementsByClassName("active");
+    current1[0].className = current1[0].className.replace(" active", "");
+    this.className += " active";
+  }); 
 } 
 
 /****  IMAGE GRID  */
@@ -125,16 +136,7 @@ function four() {
   }
 }
 
-// Add active class to the current button (highlight it)
-var header = document.getElementById("myHeader");
-var btns = header.getElementsByClassName("btn");
-for (var g = 0; g < btns.length; g++) {
-  btns[g].addEventListener("click", function() {  
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
+
 
 /********** SLIDESHOW GALLERY *******/
 var slideIndex = 0;
@@ -159,3 +161,96 @@ function showSlides() {
 (function blink() {
   $('.blink_me').fadeOut(500).fadeIn(500, blink);
 })();
+
+function myFunction() {
+  var menu1 = document.getElementById("rusticc");
+  var menu2 = document.getElementById("filipinoo");
+  var menu3 = document.getElementById("winterr");
+  var menu4 = document.getElementById("fairytalee");
+  var menu5 = document.getElementById("disneyy");
+  var menu6 = document.getElementById("princee");
+
+
+  var text1 = document.getElementById("option1");
+  var text2 = document.getElementById("option2");
+  var text3 = document.getElementById("option3");
+  var text4 = document.getElementById("option4");
+  var text5 = document.getElementById("option5");
+  var text6 = document.getElementById("option5");
+
+    
+    if (menu1.checked == true){
+      text1.style.display = "block";
+      text2.style.display = "none";
+      text3.style.display = "none";
+      text4.style.display = "none";
+      text5.style.display = "none";
+      text6.style.display = "none";
+    
+
+    } 
+    
+    else if (menu2.checked == true){
+      text1.style.display = "none";
+      text2.style.display = "block";
+      text3.style.display = "none";
+      text4.style.display = "none";
+      text5.style.display = "none";
+      text6.style.display = "none";
+
+    } 
+
+    else if (menu3.checked == true){
+      text1.style.display = "none";
+      text2.style.display = "none";
+      text3.style.display = "block";
+      text4.style.display = "none";
+      text5.style.display = "none";
+      text6.style.display = "none";
+
+    } 
+
+    else if (menu4.checked == true){
+      text1.style.display = "none";
+      text2.style.display = "none";
+      text3.style.display = "none";
+      text4.style.display = "block";
+      text5.style.display = "none";
+      text6.style.display = "none";
+
+    } 
+
+    else if (menu5.checked == true){
+      text1.style.display = "none";
+      text2.style.display = "none";
+      text3.style.display = "none";
+      text4.style.display = "none";
+      text5.style.display = "block";
+      text6.style.display = "none";
+
+    } 
+
+    else if (menu6.checked == true){
+      text1.style.display = "none";
+      text2.style.display = "none";
+      text3.style.display = "none";
+      text4.style.display = "none";
+      text5.style.display = "none";
+      text6.style.display = "display";
+
+    } 
+
+    
+    else {
+      text1.style.display = "none";
+      text2.style.display = "none";
+      text3.style.display = "none";
+      text4.style.display = "none";
+      text5.style.display = "none";
+    }
+  
+  
+  }
+
+
+
